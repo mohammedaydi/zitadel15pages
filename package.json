@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3001",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "next-auth": "^4.24.11",
+    "openid-client": "^5.4.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "next": "15.3.2"
